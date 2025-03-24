@@ -21,29 +21,19 @@ const Profile = () => {
             />
           </div>
 
-          {/* About Me Section */}
-          <div className="w-full md:w-2/3 px-6">
+          <div className="w-full md:w-2/3 px-6 flex flex-col items-center text-center mx-auto">
             <h2 className="text-3xl font-bold text-gray-800">ABOUT ME</h2>
-            <p className="text-gray-600 mt-3 text-base leading-relaxed">
-              Someone who is learning about website development and website
-              optimization. Currently I have mastered Node.js, React.js, and
-              Laravel. I am an expert in Java, HTML, CSS, and using Figma. I am
-              a person who always wants to be at the forefront, always curious
-              about technology, always take advantage of existing opportunities,
-              and always strive to be the best.
+            <p className="text-gray-600 mt-3 text-base leading-relaxed max-w-2xl text-left">
+              Someone who is learning about website development and website optimization. Currently I have mastered Node.js, React.js, and Laravel. I am an expert in Java, HTML, CSS, and using Figma. I am a person who always wants to be at the forefront, always curious about technology, always take advantage of existing opportunities, and always strive to be the best.
             </p>
 
-            {/* Skills Section */}
-            <div className="mt-6">
+
+            <div className="mt-6 w-full max-w-lg">
               {skills.map((skill, index) => (
                 <div key={index} className="mb-5">
                   <div className="flex justify-between">
-                    <span className="font-semibold text-gray-800">
-                      {skill.name}
-                    </span>
-                    <span className="text-orange-600 font-semibold">
-                      {skill.level}%
-                    </span>
+                    <span className="font-semibold text-gray-800">{skill.name}</span>
+                    <span className="text-orange-600 font-semibold">{skill.level}%</span>
                   </div>
                   <div className="bg-gray-300 h-3 rounded-full mt-1">
                     <div
@@ -55,6 +45,7 @@ const Profile = () => {
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </div>
