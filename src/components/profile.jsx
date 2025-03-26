@@ -27,7 +27,6 @@ const Profile = () => {
               Someone who is learning about website development and website optimization. Currently I have mastered Node.js, React.js, and Laravel. I am an expert in Java, HTML, CSS, and using Figma. I am a person who always wants to be at the forefront, always curious about technology, always take advantage of existing opportunities, and always strive to be the best.
             </p>
 
-
             <div className="mt-6 w-full max-w-lg">
               {skills.map((skill, index) => (
                 <div key={index} className="mb-5">
@@ -43,7 +42,7 @@ const Profile = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div>   
           </div>
 
         </div>

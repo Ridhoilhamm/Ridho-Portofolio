@@ -5,17 +5,17 @@ const cards = [
   {
     title: "Wikusama Web Caffe",
     description: "A platform for optimizing financial management and queues",
-    image: "/images/port1.png",
+    image: "/images/Wireframe - 3.png",
   },
   {
     title: "Sport Ease",
     description: "A platform used for booking sports fields",
-    image: "/images/port2.png",
+    image: "/images/Wireframe - 1.png",
   },
   {
     title: "Chatterfly",
     description: "A real-time chat platform and social media used to facilitate communication and find friends",
-    image: "/images/port3.png",
+    image: "/images/Wireframe - 2.png",
   },
 ];
 
