@@ -2,10 +2,10 @@ import React from "react";
 
 const Profile = () => {
   const skills = [
-    { name: "Programming", level: 85 },
-    { name: "Sistem Analyst", level: 60 },
-    { name: "Web Design", level: 70 },
+    { name: "Programming", level: 95 },
     { name: "Data Analyst", level: 75 },
+    { name: "Sistem Analyst", level: 60 },
+    { name: "Web Design", level: 80 },
   ];
 
   return (
@@ -32,11 +32,11 @@ const Profile = () => {
                 <div key={index} className="mb-5">
                   <div className="flex justify-between">
                     <span className="font-semibold text-gray-800">{skill.name}</span>
-                    <span className="text-orange-600 font-semibold">{skill.level}%</span>
+                    <span className="text-orange-600 -600 font-semibold">{skill.level}%</span>
                   </div>
                   <div className="bg-gray-300 h-3 rounded-full mt-1">
                     <div
-                      className="bg-orange-500 h-3 rounded-full transition-all duration-500"
+                      className="bg-gradient h-3 rounded-full transition-all duration-500"
                       style={{ width: `${skill.level}%` }}
                     ></div>
                   </div>

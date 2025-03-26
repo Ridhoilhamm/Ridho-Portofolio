@@ -3,7 +3,7 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white py-6 flex flex-col items-center justify-center border-t">
+    <footer id="portofolio" className="w-full bg-white py-6 flex flex-col items-center justify-center border-t">
       <div className="flex space-x-5 mb-2">
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-500 transition duration-300">
           <FaInstagram size={24} />

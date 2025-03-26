@@ -41,17 +41,16 @@ const Banner = () => {
         </div>
         <div className="w-full flex justify-center">
           <a
-            href="/Cv Ridho Iham.pdf" // Pastikan file ada di public folder
-            download="CV Ridho Ilham Dwi.pdf" // Nama file saat di-download
+            href={encodeURI("/Cv Ridho Ilham.pdf")}
+            type="application/pdf"
+            download="CV Ridho Ilham Dwi.pdf"
             className="mt-6 px-6 py-2 border-2 border-secondary text-secondary rounded-lg hover:bg-secondary hover:text-white transition"
           >
             Resume CV
           </a>
         </div>
 
-
       </div>
-
     </div>
   )
 }

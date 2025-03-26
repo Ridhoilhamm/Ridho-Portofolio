@@ -33,7 +33,7 @@ const Portofolio = () => {
             border border-gray-200 w-[24rem] h-auto 
             rounded-xl p-6 transition-all duration-300 ease-in-out">
   
-            <CardItem translateZ="40" className="text-xl font-bold text-black">
+            <CardItem translateZ="40" className="text-xl font-bold text-black ">
               {card.title}
             </CardItem>
             <CardItem as="p" translateZ="50" className="text-gray-600 text-sm max-w-md mt-2">
@@ -50,7 +50,6 @@ const Portofolio = () => {
             </CardItem>
             <div className="flex justify-between items-center mt-8">
               <CardItem translateZ={15} translateX={-20} as="button" className="px-4 py-2 rounded-xl text-sm font-medium text-gray-700 hover:text-black transition-transform duration-300 ease-in-out hover:scale-105">
-                Try now →
               </CardItem>
               <CardItem translateZ={15} translateX={20} as="button" className="px-4 py-2 rounded-xl bg-black text-white text-sm font-bold transition-transform duration-300 ease-in-out hover:scale-105">
                 View Demo
